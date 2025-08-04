@@ -1,0 +1,20 @@
+<svg viewBox="0 0 95 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- 
+    NV Monogram Logo
+    - viewBox: Defines the coordinate system for the SVG.
+    - path: The single path that draws both letters.
+    - stroke: The color of the lines. Using "currentColor" would make it inherit the text color, 
+      but for a logo, a fixed color like this light gray (#E5E7EB) is often better.
+    - stroke-width: The thickness of the lines.
+    - stroke-linecap/linejoin: "round" gives the line endings and corners a softer, more modern look.
+    - fill="none": Ensures the shape is not filled with color, only the stroke is visible.
+  -->
+  <path 
+    d="M 10 70 L 10 10 L 50 70 L 50 10 M 50 10 L 70 70 L 90 10" 
+    stroke="#E5E7EB" 
+    stroke-width="12" 
+    stroke-linecap="round" 
+    stroke-linejoin="round" 
+    fill="none" 
+  />
+</svg>
