@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 4000;
 // Enable CORS for all routes
 app.use(cors({
 	origin: process.env.NODE_ENV === "production" 
-		? [process.env.FRONTEND_URL || "https://whisper-chat.render.com"]
+		? [process.env.FRONTEND_URL || "https://whisper-chat-fz0g.onrender.com"]
 		: ["http://localhost:3000", "http://localhost:4000"],
 	credentials: true,
 	methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
